@@ -1,0 +1,32 @@
+.navbar {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  max-width: 449px;
+  margin: auto;
+  padding: 3rem 0;
+
+  a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: all ease .25s;
+
+    &.activeClass:not(&:hover),
+    &:hover {
+      position: relative;
+
+      &:before {
+        background: var(--color-purple);
+        content: "";
+        width: 100%;
+        position: absolute;
+        height: 3px;
+        bottom: 0;
+        transform: translateY(5px);
+      }
+    }
+  }
+
+}
