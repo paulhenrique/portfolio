@@ -6,4 +6,11 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
+  background: #1F1C21;
+  color: white;
+
+  .container {
+    max-width: 1056px;
+    margin: 0 auto;
+  }
 }
