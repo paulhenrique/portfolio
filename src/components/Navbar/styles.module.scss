@@ -3,14 +3,14 @@
   display: flex;
   justify-content: space-around;
   color: white;
-  max-width: 449px;
   margin: auto;
   padding: 3rem 0;
 
   a {
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 30px;
+    font-weight: 600;
     transition: all ease .25s;
 
     &.activeClass:not(&:hover),
