@@ -3,77 +3,92 @@
     {
       "title": "ElectrosFI",
       "description": "Sistema Web Completo, desenvolvido com Python, NodeJS, VueJS e MongoDB",
-      "link": "https://electrosfi.itp.ifsp.edu.br/"
+      "link": "https://electrosfi.itp.ifsp.edu.br/",
+      "cover": "/img/projetos/electrosfi.png"
     },
     {
       "title": "ProsaIF",
       "description": "Sistema Web Completo, desenvolvido com Laravel, Bootstrap, VueJS e MySQL",
-      "link": "https://panda.itp.ifsp.edu.br/"
+      "link": "https://panda.itp.ifsp.edu.br/",
+      "cover": "/img/projetos/panda.png"
     },
     {
       "title": "GTAC",
       "description": "Landing Page da Web, desenvolvido com ReactJS, Sass e NodeJS",
-      "link": "https://gtac.itp.ifsp.edu.br/"
+      "link": "https://gtac.itp.ifsp.edu.br/",
+      "cover": "/img/projetos/gtac.png"
     },
     {
       "title": "Hello Yotta",
       "description": "Sistema Web Completo, desenvolvido VueJS, Electron, Python e Firebase",
-      "link": "https://helloyotta.com/"
+      "link": "https://helloyotta.com/",
+      "cover": "/img/projetos/yotta.png"
     },
     {
       "title": "PetFood",
       "description": "Marketplace Web desenvolvido com React, Node, MongoDB e integrado com o sistema Pagar.me",
-      "link": "https://github.com/paulhenrique/petfood"
+      "link": "https://github.com/paulhenrique/petfood",
+      "cover": "/img/projetos/yotta.png"
     },
     {
       "title": "Worktech",
       "description": "Página Web de Evento virtual desenvolvida em HTML5, CSS3 e JS.",
-      "link": "https://worktech.itp.ifsp.edu.br/"
+      "link": "https://worktech.itp.ifsp.edu.br/",
+      "cover": "/img/projetos/worktech.png"
     },
     {
       "title": "Carlos Santos",
       "description": "Landing Page personalizada e administrável.",
-      "link": "https://santos-chs.web.app/"
+      "link": "https://santos-chs.web.app/",
+      "cover": "/img/projetos/carlos.png"
     },
     {
       "title": "e.diversidades",
       "description": "Página Web de Evento virtual desenvolvida em HTML5, CSS3 e JS.",
-      "link": "naoDisponivel"
+      "link": "naoDisponivel",
+      "cover": "/img/projetos/ed.png"
     },
     {
       "title": "Dogs",
       "description": "Rede Social para troca de imagens de donos de Pets, um Instagram Animal.",
-      "link": "naoDisponivel"
+      "link": "naoDisponivel",
+      "cover": "/img/projetos/dogs.png"
     },
     {
       "title": "Podcastr",
       "description": "Sistema Web de Podcasts online com player online.",
-      "link": "naoDisponivel"
+      "link": "naoDisponivel",
+      "cover": "/img/projetos/worktech.png"
     },
     {
       "title": "Proffy",
       "description": "Sistema Web para contato entre diferentes professores e alunos de forma simplificada.",
-      "link": "naoDisponivel"
+      "link": "naoDisponivel",
+      "cover": "/img/projetos/proffy.png"
     },
     {
       "title": "Bikcraft",
       "description": "Site Web Desenvolvido para estudos e aprimoramento na construção de interfaces.",
-      "link": "https://paulhenrique.github.io/bikcraft/"
+      "link": "https://paulhenrique.github.io/bikcraft/",
+      "cover": "/img/projetos/bikcraft.png"
     },
     {
       "title": "FlexBlog",
       "description": "Site Web Desenvolvido para estudos e aprimoramento na construção de interfaces.",
-      "link": "https://paulhenrique.github.io/FlexBlog/"
+      "link": "https://paulhenrique.github.io/FlexBlog/",
+      "cover": "/img/projetos/flexblog.png"
     },
     {
       "title": "Cripto Moedas",
       "description": "Site Web Desenvolvido para estudos e aprimoramento na construção de interfaces.",
-      "link": "https://github.com/paulhenrique/criptoMoedasFetch"
+      "link": "https://github.com/paulhenrique/criptoMoedasFetch",
+      "cover": "/img/projetos/criptomoedas.png"
     },
     {
       "title": "glmT Scatter",
       "description": "Sistema Web para modelagem de Feixes de Bessel desenvolvido em parceria com a universidade de São Paulo.",
-      "link": "http://glmtscatt.web.app/"
+      "link": "http://glmtscatt.web.app/",
+      "cover": "/img/projetos/glmt.png"
     }
   ]
 }
