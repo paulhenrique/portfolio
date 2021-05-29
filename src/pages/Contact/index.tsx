@@ -7,7 +7,7 @@ function Contact() {
       <h1>Contact</h1>
       <div className="containerContact">
         <div className="info">
-          <p>Você pode me encontrar nas redes<br></br> sociais ou pelo do meu e-mail :) </p>
+          <p>Você pode me encontrar nas redes<br></br> sociais ou pelo meu e-mail :) </p>
           <div className="containerSocial">
             <a href="https://api.whatsapp.com/send?phone=15997088134&text=Ol%C3%A1,%20Paulo.%20Estou%20entrando%20em%20contato%20contigo%20atrav%C3%A9s%20do%20seu%20site." target="_blank" rel="noreferrer">
               <i className="fab fa-whatsapp"></i>
