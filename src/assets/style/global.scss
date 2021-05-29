@@ -25,4 +25,47 @@ body {
     font-size: 116px;
     line-height: 125px;
   }
+
+  .dock {
+    background: #0B0B0B;
+    height: 100%;
+    padding: 3rem;
+
+    h3 {
+      font-size: 48px;
+      text-align: center;
+    }
+
+    p {
+      margin-top: 1rem;
+      text-align: center;
+      font-weight: 600;
+      font-size: 18px;
+    }
+
+    button,
+    a {
+      display: inline-block;
+      text-decoration: none;
+      text-align: center;
+      width: 100%;
+      border: none;
+      padding: 1rem;
+      font-size: 1.5rem;
+      margin: .5rem 0;
+      color: white;
+      cursor: pointer;
+      border-radius: 5px;
+      font-family: 'GT Walsheim Pro', "Helvetica Neue", Helvetica, Arial, sans-serif;
+      background: var(--color-purple);
+
+      &:hover {
+        filter: brightness(0.95);
+      }
+    }
+
+    button {
+      background: #151515;
+    }
+  }
 }
