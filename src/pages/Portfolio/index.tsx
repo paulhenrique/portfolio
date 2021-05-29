@@ -11,7 +11,7 @@ function Card() {
 }
 function Portfolio() {
   return (
-    <div className="portfolio">
+    <div className="portfolio  animate__animated  animate__fadeInLeft">
       <h1>Portfolio</h1>
       <div className="containerCardsPortfolio">
         {
