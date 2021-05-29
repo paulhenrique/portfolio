@@ -52,7 +52,7 @@
     {
       "title": "PetFood",
       "description": "Marketplace Web desenvolvido com React, Node, MongoDB e integrado com o sistema Pagar.me",
-      "link": "https://github.com/paulhenrique/petfood",
+      "link": "naoDisponivel",
       "cover": "/img/projetos/petfood.png",
       "github": "https://github.com/paulhenrique/petfood",
       "tags": [
@@ -66,7 +66,7 @@
     {
       "title": "COVID Monitor",
       "description": "Marketplace Web desenvolvido com React, Node, MongoDB e integrado com o sistema Pagar.me",
-      "link": "https://github.com/paulhenrique/petfood",
+      "link": "naoDisponivel",
       "cover": "/img/projetos/covid.png",
       "github": "https://github.com/paulhenrique/covid-19",
       "tags": [
@@ -174,7 +174,7 @@
     {
       "title": "LibrasMath",
       "description": "Aplicativo para auxílio de professores no ensino de sinais matemáticos em Libras para o ensino Fundamental.",
-      "link": "https://paulhenrique.github.io/bikcraft/",
+      "link": "https://libras-math.netlify.app#/Home",
       "cover": "/img/projetos/librasmath.png",
       "github": "https://github.com/paulhenrique/LibrasMath",
       "tags": [

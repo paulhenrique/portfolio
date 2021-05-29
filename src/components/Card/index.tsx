@@ -41,7 +41,7 @@ const Card: React.FC<Project> = ({ title, description, link, cover, github, tags
 
           {
             github !== '' && (
-              <a href={link} target="_blank" rel="noreferrer">
+              <a href={github} target="_blank" rel="noreferrer">
                 <i className="fab fa-github"></i>
             Github
               </a>)
