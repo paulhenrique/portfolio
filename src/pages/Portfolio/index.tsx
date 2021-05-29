@@ -20,7 +20,7 @@ function Portfolio() {
         <div className="containerCardsPortfolio">
           {
             projects.map((e, i) => (
-              <Card link={e.link} title={e.title} description={e.description} key={i} />
+              <Card cover={e.cover} link={e.link} github={e.github} title={e.title} description={e.description} key={i} />
             ))
           }
         </div>

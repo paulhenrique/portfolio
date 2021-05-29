@@ -5,49 +5,22 @@
     gap: 20px;
     padding-bottom: 5rem;
 
+    @media (max-width:1165px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
     @media (max-width:864px) {
       grid-template-columns: repeat(2, 1fr);
     }
 
-    @media (max-width:579px) {
+    @media (max-width:785px) {
       display: flex;
       max-width: 100%;
+      padding-left: 4rem;
       overflow-x: scroll;
       padding-top: 3rem;
     }
 
-    a {
-      text-decoration: none;
-      color: inherit;
-    }
 
-    .card {
-      text-align: center;
-      background: #151515;
-      color: white;
-      font-weight: 600;
-      padding: 4rem 0;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: all ease .25s;
-      min-height: 466px;
-      overflow: hidden;
-
-      &:hover {
-        transform: translateY(-5px);
-        filter: brightness(0.96);
-        box-shadow: 0 0 0 3px inset var(--color-purple);
-      }
-
-      h3 {
-        font-size: 40px;
-      }
-
-      p {
-        width: 80%;
-        margin: auto;
-        opacity: 0.6;
-      }
-    }
   }
 }

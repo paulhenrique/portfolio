@@ -16,6 +16,8 @@ export function GlobalContextProvider({ children }: { children: React.ReactNode 
     title: '',
     link: '',
     description: '',
+    cover: '',
+    github: ''
   });
 
   return (

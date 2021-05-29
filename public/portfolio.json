@@ -4,91 +4,162 @@
       "title": "ElectrosFI",
       "description": "Sistema Web Completo, desenvolvido com Python, NodeJS, VueJS e MongoDB",
       "link": "https://electrosfi.itp.ifsp.edu.br/",
-      "cover": "/img/projetos/electrosfi.png"
+      "cover": "/img/projetos/electrosfi.png",
+      "github": ""
     },
     {
       "title": "ProsaIF",
       "description": "Sistema Web Completo, desenvolvido com Laravel, Bootstrap, VueJS e MySQL",
       "link": "https://panda.itp.ifsp.edu.br/",
-      "cover": "/img/projetos/panda.png"
+      "cover": "/img/projetos/panda.png",
+      "github": ""
     },
     {
       "title": "GTAC",
       "description": "Landing Page da Web, desenvolvido com ReactJS, Sass e NodeJS",
       "link": "https://gtac.itp.ifsp.edu.br/",
-      "cover": "/img/projetos/gtac.png"
+      "cover": "/img/projetos/gtac.png",
+      "github": "https://github.com/paulhenrique/gtac"
     },
     {
       "title": "Hello Yotta",
       "description": "Sistema Web Completo, desenvolvido VueJS, Electron, Python e Firebase",
       "link": "https://helloyotta.com/",
-      "cover": "/img/projetos/yotta.png"
+      "cover": "/img/projetos/yotta.png",
+      "github": ""
     },
     {
       "title": "PetFood",
       "description": "Marketplace Web desenvolvido com React, Node, MongoDB e integrado com o sistema Pagar.me",
       "link": "https://github.com/paulhenrique/petfood",
-      "cover": "/img/projetos/yotta.png"
+      "cover": "/img/projetos/petfood.png",
+      "github": "https://github.com/paulhenrique/petfood"
     },
     {
-      "title": "Worktech",
+      "title": "COVID Monitor",
+      "description": "Marketplace Web desenvolvido com React, Node, MongoDB e integrado com o sistema Pagar.me",
+      "link": "https://github.com/paulhenrique/petfood",
+      "cover": "/img/projetos/covid.png",
+      "github": "https://github.com/paulhenrique/covid-19"
+    },
+    {
+      "title": "Worktech 2020",
       "description": "Página Web de Evento virtual desenvolvida em HTML5, CSS3 e JS.",
       "link": "https://worktech.itp.ifsp.edu.br/",
-      "cover": "/img/projetos/worktech.png"
+      "cover": "/img/projetos/worktech.png",
+      "github": ""
+    },
+    {
+      "title": "Worktech 2016",
+      "description": "Página Web de Evento virtual desenvolvida em HTML5, CSS3 e JS.",
+      "link": "https://worktech.itp.ifsp.edu.br/",
+      "cover": "/img/projetos/wkt1.png",
+      "github": ""
+    },
+    {
+      "title": "Worktech 2017",
+      "description": "Página Web de Evento virtual desenvolvida em HTML5, CSS3 e JS.",
+      "link": "https://worktech.itp.ifsp.edu.br/",
+      "cover": "/img/projetos/wkt2.png",
+      "github": ""
     },
     {
       "title": "Carlos Santos",
       "description": "Landing Page personalizada e administrável.",
       "link": "https://santos-chs.web.app/",
-      "cover": "/img/projetos/carlos.png"
+      "cover": "/img/projetos/carlos.png",
+      "github": ""
     },
     {
       "title": "e.diversidades",
       "description": "Página Web de Evento virtual desenvolvida em HTML5, CSS3 e JS.",
       "link": "naoDisponivel",
-      "cover": "/img/projetos/ed.png"
+      "cover": "/img/projetos/ed.png",
+      "github": ""
     },
     {
       "title": "Dogs",
       "description": "Rede Social para troca de imagens de donos de Pets, um Instagram Animal.",
       "link": "naoDisponivel",
-      "cover": "/img/projetos/dogs.png"
+      "cover": "/img/projetos/dogs.png",
+      "github": "https://github.com/paulhenrique/dogs"
     },
     {
       "title": "Podcastr",
       "description": "Sistema Web de Podcasts online com player online.",
       "link": "naoDisponivel",
-      "cover": "/img/projetos/worktech.png"
-    },
-    {
-      "title": "Proffy",
-      "description": "Sistema Web para contato entre diferentes professores e alunos de forma simplificada.",
-      "link": "naoDisponivel",
-      "cover": "/img/projetos/proffy.png"
+      "cover": "/img/projetos/podcastr.png",
+      "github": "https://github.com/paulhenrique/Podcastr"
     },
     {
       "title": "Bikcraft",
       "description": "Site Web Desenvolvido para estudos e aprimoramento na construção de interfaces.",
       "link": "https://paulhenrique.github.io/bikcraft/",
-      "cover": "/img/projetos/bikcraft.png"
+      "cover": "/img/projetos/bikcraft.png",
+      "github": "https://github.com/paulhenrique/bikcraft"
+    },
+    {
+      "title": "LibrasMath",
+      "description": "Aplicativo para auxílio de professores no ensino de sinais matemáticos em Libras para o ensino Fundamental.",
+      "link": "https://paulhenrique.github.io/bikcraft/",
+      "cover": "/img/projetos/librasmath.png",
+      "github": "https://github.com/paulhenrique/LibrasMath"
     },
     {
       "title": "FlexBlog",
       "description": "Site Web Desenvolvido para estudos e aprimoramento na construção de interfaces.",
       "link": "https://paulhenrique.github.io/FlexBlog/",
-      "cover": "/img/projetos/flexblog.png"
+      "cover": "/img/projetos/flexblog.png",
+      "github": "https://github.com/paulhenrique/FlexBlog"
     },
     {
       "title": "Cripto Moedas",
       "description": "Site Web Desenvolvido para estudos e aprimoramento na construção de interfaces.",
-      "link": "https://github.com/paulhenrique/criptoMoedasFetch",
-      "cover": "/img/projetos/criptomoedas.png"
+      "link": "naoDisponivel",
+      "cover": "/img/projetos/criptomoedas.png",
+      "github": "https://github.com/paulhenrique/criptoMoedasFetch"
     },
     {
       "title": "glmT Scatter",
       "description": "Sistema Web para modelagem de Feixes de Bessel desenvolvido em parceria com a universidade de São Paulo.",
       "link": "http://glmtscatt.web.app/",
-      "cover": "/img/projetos/glmt.png"
+      "cover": "/img/projetos/glmt.png",
+      "github": "https://github.com/paulhenrique/glmt_interface"
+    },
+    {
+      "title": "Optweex",
+      "description": "Aplicação de front-end do projeto GLMT Scattering",
+      "link": "http://glmtscatt.web.app/",
+      "cover": "/img/projetos/optweex.png",
+      "github": "https://github.com/paulhenrique/glmt_interface"
+    },
+    {
+      "title": "Guide Dog",
+      "description": "Site Web Desenvolvido para estudos e aprimoramento na construção de interfaces.",
+      "link": "naoDisponivel",
+      "cover": "/img/projetos/guidedog.png",
+      "github": "https://github.com/paulhenrique/guideDog"
+    },
+    {
+      "title": "Agriloggi",
+      "description": "Aplicação em desenvolvimento, sitema de ecommerce virtual",
+      "link": "naoDisponivel",
+      "cover": "/img/projetos/agriloggi.png",
+      "github": ""
+    },
+    {
+      "title": "Icewolf",
+      "description": "Rede Social online para troca de mensagens desenvolvida com PHP para estudos.",
+      "link": "naoDisponivel",
+      "cover": "/img/projetos/icewolf.png",
+      "github": ""
+    },
+    {
+      "title": "Monitor One",
+      "description": "Sistema de monitoramento baseado em realidade virtual para SAP Business One",
+      "link": "naoDisponivel",
+      "cover": "/img/projetos/monitorOne.png",
+      "github": ""
     }
   ]
 }
