@@ -8,11 +8,13 @@ interface Project {
 
 const Card: React.FC<Project> = ({ title, description, link }) => {
   return (
-    <div className="card">
-      <img src="/img/logo_project.svg" alt="" />
-      <h3>{title}</h3>
-      <p>{description}</p>
-    </div>
+    <a href={link} target="_blank" rel="noreferrer">
+      <div className="card">
+        <img src="/img/logo_project.svg" alt="" />
+        <h3>{title}</h3>
+        <p>{description}</p>
+      </div>
+    </a>
   );
 }
 
@@ -29,8 +31,8 @@ function Portfolio() {
         projects &&
         <div className="containerCardsPortfolio">
           {
-            projects.map((e) => (
-              <Card title={e.title} description={e.description} />
+            projects.map((e, i) => (
+              <Card link={e.link} title={e.title} description={e.description} key={i} />
             ))
           }
         </div>

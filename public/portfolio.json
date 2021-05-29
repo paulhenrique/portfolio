@@ -8,52 +8,32 @@
     {
       "title": "ProsaIF",
       "description": "Sistema Web Completo, desenvolvido com Laravel, Bootstrap, VueJS e MySQL",
-      "link": "https://electrosfi.itp.ifsp.edu.br/"
+      "link": "https://panda.itp.ifsp.edu.br/"
     },
     {
       "title": "GTAC",
       "description": "Landing Page da Web, desenvolvido com ReactJS, Sass e NodeJS",
-      "link": "https://electrosfi.itp.ifsp.edu.br/"
+      "link": "https://gtac.itp.ifsp.edu.br/"
     },
     {
       "title": "Hello Yotta",
       "description": "Sistema Web Completo, desenvolvido VueJS, Electron, Python e Firebase",
-      "link": "https://electrosfi.itp.ifsp.edu.br/"
-    },
-    {
-      "title": "Agriloggi",
-      "description": "Sistema Web Completo, desenvolvido com Laravel, MySQL e integrado com o sistema Pagar.me",
-      "link": "https://electrosfi.itp.ifsp.edu.br/"
+      "link": "https://helloyotta.com/"
     },
     {
       "title": "PetFood",
       "description": "Marketplace Web desenvolvido com React, Node, MongoDB e integrado com o sistema Pagar.me",
-      "link": "https://electrosfi.itp.ifsp.edu.br/"
-    },
-    {
-      "title": "MonitorOne",
-      "description": "Sistema integrado em C#, desenvolvido em VueJS",
-      "link": "https://electrosfi.itp.ifsp.edu.br/"
-    },
-    {
-      "title": "GPS",
-      "description": "Sistema Web integrado desenvolvido com VueJS e Firebase",
-      "link": "https://electrosfi.itp.ifsp.edu.br/"
+      "link": "https://github.com/paulhenrique/petfood"
     },
     {
       "title": "Worktech",
       "description": "Página Web de Evento virtual desenvolvida em HTML5, CSS3 e JS.",
-      "link": "https://electrosfi.itp.ifsp.edu.br/"
+      "link": "https://worktech.itp.ifsp.edu.br/"
     },
     {
       "title": "Carlos Santos",
       "description": "Landing Page personalizada e administrável.",
-      "link": "https://electrosfi.itp.ifsp.edu.br/"
-    },
-    {
-      "title": "Biosquare",
-      "description": "Sistema Web integrado desenvolvido com PHP e MySQL",
-      "link": "https://electrosfi.itp.ifsp.edu.br/"
+      "link": "https://santos-chs.web.app/"
     },
     {
       "title": "e.diversidades",
@@ -88,12 +68,12 @@
     {
       "title": "Cripto Moedas",
       "description": "Site Web Desenvolvido para estudos e aprimoramento na construção de interfaces.",
-      "link": "https://electrosfi.itp.ifsp.edu.br/"
+      "link": "https://github.com/paulhenrique/criptoMoedasFetch"
     },
     {
       "title": "glmT Scatter",
       "description": "Sistema Web para modelagem de Feixes de Bessel desenvolvido em parceria com a universidade de São Paulo.",
-      "link": "https://electrosfi.itp.ifsp.edu.br/"
+      "link": "http://glmtscatt.web.app/"
     }
   ]
 }
