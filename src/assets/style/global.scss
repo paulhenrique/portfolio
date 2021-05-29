@@ -7,12 +7,15 @@
 :root {
   --color-purple: #6A00D4;
   --color-secondary: #2D2A2F;
+  --primary-background: #0b0b0b;
+  --primary-color: white;
+  --card-background: #151515;
 }
 
 body {
   font-family: 'GT Walsheim Pro', "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background: #0b0b0b;
-  color: white;
+  background: var(--primary-background);
+  color: var(--primary-color);
   z-index: 0;
   min-height: calc(100vh + 20px);
 

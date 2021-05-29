@@ -11,7 +11,7 @@
 
     a {
       color: #6a00d4;
-      background: #191919;
+      background: var(--card-background);
       padding: 1.5rem 1.5rem;
       font-size: 2rem;
       border-radius: 5px;
@@ -23,7 +23,7 @@
       span {
         display: none;
         position: absolute;
-        background: #191919;
+        background: var(--card-background);
         color: #3FB773;
         margin: 0 auto;
         top: 100%;

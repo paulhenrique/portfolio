@@ -4,8 +4,8 @@
   }
 
   .card {
-    background: #151515;
-    color: white;
+    background: var(--card-background);
+    color: var(--primary-color);
     font-weight: 600;
     padding: 0 0 4rem 0;
     border-radius: 5px;
