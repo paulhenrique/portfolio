@@ -1,16 +1,16 @@
 import React from 'react';
 import { Project } from '../pages/Portfolio';
 interface GlobalProps {
-  showDock: boolean;
+  showModal: boolean;
+  setShowModal: React.Dispatch<React.SetStateAction<boolean>>;
   project: Project;
-  setShowDock: React.Dispatch<React.SetStateAction<boolean>>;
   setProject: React.Dispatch<React.SetStateAction<Project>>;
 }
 
 export const GlobalContext = React.createContext({} as GlobalProps);
 
 export function GlobalContextProvider({ children }: { children: React.ReactNode }) {
-  const [showDock, setShowDock] = React.useState(false);
+  const [showModal, setShowModal] = React.useState(false);
   const [project, setProject] = React.useState<Project>({
     title: '',
     link: '',
@@ -18,7 +18,7 @@ export function GlobalContextProvider({ children }: { children: React.ReactNode 
   });
 
   return (
-    <GlobalContext.Provider value={{ showDock, setShowDock, project, setProject }}>
+    <GlobalContext.Provider value={{ showModal, setShowModal, project, setProject }}>
       {children}
     </GlobalContext.Provider>
   )

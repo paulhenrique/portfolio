@@ -9,16 +9,15 @@ export interface Project {
 }
 
 const Card: React.FC<Project> = ({ title, description, link }) => {
-  const { showDock, setShowDock, setProject } = useGlobal();
+  const { setShowModal, setProject } = useGlobal();
   const handleClick = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>, link: string) => {
     e.preventDefault();
-    setShowDock(true);
+    setShowModal(true);
     setProject({
       title,
       description,
       link
     })
-    console.log(showDock);
   }
   return (
     <>

@@ -6,17 +6,16 @@ import Bio from './pages/Bio';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import { useGlobal } from './contexts/global';
+import Modal from './components/Modal';
 
 function App() {
-  const { showDock, setShowDock, project } = useGlobal();
-  const handleClick = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
-    if (project.link === 'naoDisponivel') e.preventDefault();
-  }
+  const { showModal } = useGlobal();
+
 
   return (
 
     <>
-      <div className="container" style={{ filter: `blur(${showDock ? '5px' : '0'})` }}>
+      <div className="container" style={{ filter: `blur(${showModal ? '5px' : '0'})` }}>
         <BrowserRouter>
           <Navbar />
           <Switch>
@@ -26,23 +25,7 @@ function App() {
           </Switch>
         </BrowserRouter>
       </div>
-      <span>
-        {showDock &&
-          (<div className="dock animate__animated  animate__fadeIn">
-            <div className="containerDock">
-              <h3>{project.title}</h3>
-              <p>{project.description}</p>
-              {
-                project.link === 'naoDisponivel' && (<p>Este projeto não está disponível para acesso por ser privado ou estar em rede fechada.</p>)
-              }
-              <a href={project.link} onClick={(e) => handleClick(e)} className={`${project.link === 'naoDisponivel' ? 'disabled' : ''}`} rel="noreferrer" target="_blank" >
-                Acessar  <i className="fas fa-external-link-alt"></i>
-              </a>
-              <button type="button" onClick={() => setShowDock(!showDock)}>Fechar  <i className="fas fa-times-circle left"></i></button>
-            </div>
-          </div>)
-        }
-      </span>
+      <Modal />
     </>
   )
 }
