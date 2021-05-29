@@ -7,8 +7,7 @@ function Navbar() {
     <div className={styles.navbar}>
       <NavLink activeClassName={styles.activeClass} exact to="/">Bio</NavLink>
       <NavLink activeClassName={styles.activeClass} to="/portfolio" >Portfolio</NavLink>
-      <NavLink activeClassName={styles.activeClass} to="/experiencia" >Experience</NavLink>
-      <NavLink activeClassName={styles.activeClass} to="/contato" >Contact</NavLink>
+      <NavLink activeClassName={styles.activeClass} to="/contact" >Contact</NavLink>
     </div>
   )
 }

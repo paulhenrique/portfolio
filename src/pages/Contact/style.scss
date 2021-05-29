@@ -1,0 +1,50 @@
+.contact {
+  p {
+    font-size: 32px;
+  }
+
+  .containerSocial {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding-top: 1.5rem;
+
+    a {
+      color: #6a00d4;
+      background: #191919;
+      padding: 1.5rem 1.5rem;
+      font-size: 2rem;
+      border-radius: 5px;
+      text-decoration: none;
+      align-items: center;
+      transition: all .25s;
+      position: relative;
+
+      span {
+        display: none;
+        position: absolute;
+        background: #191919;
+        color: white;
+        margin: 0 auto;
+        top: 100%;
+        transform: translateY(5px);
+        font-size: 18px;
+        padding: 1rem;
+        border-radius: 5px;
+        left: -15%;
+      }
+
+      display: flex;
+
+      &:hover {
+        filter: brightness(0.95);
+        color: #3FB773;
+
+        span {
+          display: block;
+          padding-left: 1rem;
+        }
+      }
+    }
+  }
+}
