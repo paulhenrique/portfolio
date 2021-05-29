@@ -33,9 +33,21 @@ body {
   }
 
   .dock {
-    background: #0B0B0B;
     height: 100%;
     padding: 3rem;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+
+    .containerDock {
+      margin: auto;
+      padding: 3rem;
+      border-radius: 5px;
+      width: 50%;
+      background: black;
+      box-shadow: 0px 10px 22px -3px #171717;
+    }
 
     h3 {
       font-size: 48px;
@@ -64,6 +76,11 @@ body {
       border-radius: 5px;
       font-family: 'GT Walsheim Pro', "Helvetica Neue", Helvetica, Arial, sans-serif;
       background: var(--color-purple);
+
+      &.disabled {
+        background: #151515;
+        cursor: not-allowed;
+      }
 
       &:hover {
         filter: brightness(0.95);
