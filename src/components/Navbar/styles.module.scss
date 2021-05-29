@@ -1,7 +1,7 @@
 .navbar {
   width: 90%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   color: white;
   margin: auto;
   padding: 3rem 0;
@@ -12,10 +12,12 @@
     font-size: 30px;
     font-weight: 600;
     transition: all ease .25s;
+    opacity: .3;
 
     &.activeClass:not(&:hover),
     &:hover {
       position: relative;
+      opacity: 1;
 
       &:before {
         background: var(--color-purple);
