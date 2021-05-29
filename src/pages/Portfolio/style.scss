@@ -19,6 +19,8 @@
       border-radius: 5px;
       cursor: pointer;
       transition: all ease .25s;
+      min-height: 466px;
+      overflow: hidden;
 
       &:hover {
         transform: translateY(-5px);
