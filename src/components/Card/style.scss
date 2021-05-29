@@ -27,6 +27,29 @@
       margin: auto;
     }
 
+    .containTags {
+      display: flex;
+      gap: 5px;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      width: 90%;
+      margin: auto;
+      padding: 1rem 0;
+
+      span {
+        background: #3FB773;
+        font-weight: 400;
+        border-radius: 5px;
+        padding: 0 .5rem;
+        opacity: 0.5;
+        transition: all ease .25s;
+
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+
     .containerButtons {
       width: 90%;
       margin: auto;

@@ -5,7 +5,7 @@ import './styles.scss';
 function Bio() {
   return (
     <div className="bio">
-      <div className="card animate__animated  animate__fadeInLeft">
+      <div className="cardHome animate__animated  animate__fadeInLeft">
         <div className="cardContainer">
           <img src="/img/logo.png" alt="Logo PH" />
           <div>

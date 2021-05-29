@@ -22,11 +22,13 @@ const Card: React.FC<Project> = ({ title, description, link, cover, github, tags
         <h3>{title}</h3>
         <p className="title"><strong>Description:</strong></p>
         <p>{description}</p>
-        {
-          tags?.map((e, i) => (
-            <p>{e}</p>
-          ))
-        }
+        <div className="containTags">
+          {
+            tags?.map((e, i) => (
+              <span>{e}</span>
+            ))
+          }
+        </div>
         <div className="containerButtons">
           {
             link !== 'naoDisponivel' && (
