@@ -1,5 +1,4 @@
-import React from 'react'
-import { useGlobal } from '../../contexts/global';
+import React from 'react';
 import './style.scss';
 export interface Project {
   title: string;
@@ -7,10 +6,11 @@ export interface Project {
   link: string;
   cover: string;
   github: string;
+  tags: string[];
 }
 
 
-const Card: React.FC<Project> = ({ title, description, link, cover, github }) => {
+const Card: React.FC<Project> = ({ title, description, link, cover, github, tags }) => {
   return (
     <>
       {/* <a onClick={(e) => { handleClick(e, link) }} href={link} target="_blank" rel="noreferrer"> */}
@@ -22,6 +22,11 @@ const Card: React.FC<Project> = ({ title, description, link, cover, github }) =>
         <h3>{title}</h3>
         <p className="title"><strong>Description:</strong></p>
         <p>{description}</p>
+        {
+          tags?.map((e, i) => (
+            <p>{e}</p>
+          ))
+        }
         <div className="containerButtons">
           {
             link !== 'naoDisponivel' && (
@@ -38,7 +43,6 @@ const Card: React.FC<Project> = ({ title, description, link, cover, github }) =>
                 <i className="fab fa-github"></i>
             Github
               </a>)
-
           }
 
         </div>
