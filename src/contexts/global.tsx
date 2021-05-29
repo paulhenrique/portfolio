@@ -1,5 +1,6 @@
 import React from 'react';
-import { Project } from '../pages/Portfolio';
+import { Project } from '../components/Card';
+
 interface GlobalProps {
   showModal: boolean;
   setShowModal: React.Dispatch<React.SetStateAction<boolean>>;
