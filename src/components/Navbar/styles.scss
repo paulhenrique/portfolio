@@ -18,7 +18,8 @@
       font-size: 20px;
     }
 
-    &.activeClass:not(&:hover),
+
+    &.active,
     &:hover {
       position: relative;
       opacity: 1;

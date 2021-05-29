@@ -1,13 +1,13 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
-import styles from './styles.module.scss';
+import './styles.scss';
 
 function Navbar() {
   return (
-    <div className={styles.navbar}>
-      <NavLink activeClassName={styles.activeClass} exact to="/">Bio</NavLink>
-      <NavLink activeClassName={styles.activeClass} to="/portfolio" >Portfolio</NavLink>
-      <NavLink activeClassName={styles.activeClass} to="/contact" >Contact</NavLink>
+    <div className="navbar">
+      <NavLink activeClassName="active" exact to="/">Bio</NavLink>
+      <NavLink activeClassName="active" to="/portfolio" >Portfolio</NavLink>
+      <NavLink activeClassName="active" to="/contact" >Contact</NavLink>
     </div>
   )
 }
