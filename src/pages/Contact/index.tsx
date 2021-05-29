@@ -9,7 +9,7 @@ function Contact() {
         <div className="info">
           <p>Você pode me encontrar nas redes<br></br> sociais ou pelo do meu e-mail :) </p>
           <div className="containerSocial">
-            <a href="https://api.whatsapp.com/send?phone=15997088134&text=Ol%C3%A1,%20Paulo.%20Estou%20entrando%20em%20contato%20contigo%20atrav%C3%A9s%20do%20seu%20site." href="https://github.com/paulhenrique" target="_blank" rel="noreferrer">
+            <a href="https://api.whatsapp.com/send?phone=15997088134&text=Ol%C3%A1,%20Paulo.%20Estou%20entrando%20em%20contato%20contigo%20atrav%C3%A9s%20do%20seu%20site." target="_blank" rel="noreferrer">
               <i className="fab fa-whatsapp"></i>
               <span>+15997088134</span>
             </a>

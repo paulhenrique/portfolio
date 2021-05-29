@@ -1,25 +1,40 @@
 import React from 'react'
 import './style.scss';
-function Card() {
+interface Project {
+  title: string;
+  description: string;
+  link?: string;
+}
+
+const Card: React.FC<Project> = ({ title, description, link }) => {
   return (
     <div className="card">
       <img src="/img/logo_project.svg" alt="" />
-      <h3>ElectrosFI</h3>
-      <p>Sistema Web Completo, desenvolvido com Python, NodeJS, VueJS e MongoDB</p>
+      <h3>{title}</h3>
+      <p>{description}</p>
     </div>
   );
 }
+
 function Portfolio() {
+  const [projects, setProjects] = React.useState<Project[]>([]);
+  React.useEffect(() => {
+    fetch('/portfolio.json').then((r) => r.json()).then((data) => setProjects(data.portfolio));
+  }, []);
+
   return (
     <div className="portfolio  animate__animated  animate__fadeInLeft">
       <h1>Portfolio</h1>
-      <div className="containerCardsPortfolio">
-        {
-          [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map(e => (
-            Card()
-          ))
-        }
-      </div>
+      {
+        projects &&
+        <div className="containerCardsPortfolio">
+          {
+            projects.map((e) => (
+              <Card title={e.title} description={e.description} />
+            ))
+          }
+        </div>
+      }
     </div>
   )
 }
