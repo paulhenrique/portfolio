@@ -25,7 +25,7 @@ const Card: React.FC<Project> = ({ title, description, link, cover, github, tags
         <div className="containTags">
           {
             tags?.map((e, i) => (
-              <span>{e}</span>
+              <span key={i}>{e}</span>
             ))
           }
         </div>
