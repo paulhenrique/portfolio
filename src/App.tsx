@@ -5,7 +5,6 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Bio from './pages/Bio';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
-import Dock from 'react-dock';
 import { useGlobal } from './contexts/global';
 
 function App() {
