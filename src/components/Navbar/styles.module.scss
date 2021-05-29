@@ -14,6 +14,10 @@
     transition: all ease .25s;
     opacity: .3;
 
+    @media (max-width:1056px) {
+      font-size: 20px;
+    }
+
     &.activeClass:not(&:hover),
     &:hover {
       position: relative;

@@ -18,12 +18,18 @@ body {
 
   .container {
     max-width: 1056px;
+    width: 90%;
     margin: 0 auto;
   }
 
   h1 {
     font-size: 116px;
     line-height: 125px;
+
+    @media (max-width:1056px) {
+      font-size: 56px;
+      line-height: 55px;
+    }
   }
 
   .dock {

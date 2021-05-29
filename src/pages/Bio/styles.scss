@@ -41,6 +41,12 @@
         font-size: 28px;
         line-height: 42px;
         color: #E0E0E0;
+
+        @media (max-width:1056px) {
+          font-size: 20px;
+          line-height: 29px;
+
+        }
       }
 
       a.portfolio {
