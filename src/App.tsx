@@ -5,10 +5,15 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Bio from './pages/Bio';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
-function App() {
-  return (
-    <div className="container">
+import Dock from 'react-dock';
+import { useGlobal } from './contexts/global';
 
+function App() {
+  const { showDock } = useGlobal();
+  console.log(showDock);
+  return (
+
+    <div className="container">
       <BrowserRouter>
         <Navbar />
         <Switch>
@@ -17,6 +22,7 @@ function App() {
           <Route component={Contact} path="/contact" />
         </Switch>
       </BrowserRouter>
+      <Dock position='left' isVisible={showDock}>Test</Dock>
     </div>
   )
 }

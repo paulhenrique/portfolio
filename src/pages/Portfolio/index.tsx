@@ -1,20 +1,34 @@
-import React from 'react'
+import React from 'react';
+import { useGlobal } from '../../contexts/global';
+
 import './style.scss';
 interface Project {
   title: string;
   description: string;
-  link?: string;
+  link: string;
 }
 
 const Card: React.FC<Project> = ({ title, description, link }) => {
+  const { showDock, setShowDock } = useGlobal();
+  const handleClick = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>, link: string) => {
+    e.preventDefault();
+    setShowDock(true);
+    console.log(showDock);
+    // if (link === 'noavailable') {
+    //   setShowDock(true);
+    // }
+  }
   return (
-    <a href={link} target="_blank" rel="noreferrer">
-      <div className="card">
-        <img src="/img/logo_project.svg" alt="" />
-        <h3>{title}</h3>
-        <p>{description}</p>
-      </div>
-    </a>
+    <>
+      <a onClick={(e) => { handleClick(e, link) }} href={link} target="_blank" rel="noreferrer">
+        <div className="card">
+          <img src="/img/logo_project.svg" alt="" />
+          <h3>{title}</h3>
+          <p>{description}</p>
+        </div>
+      </a>
+
+    </>
   );
 }
 
